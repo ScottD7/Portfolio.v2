@@ -1,0 +1,201 @@
+/** {border:1px solid black;}*/
+/*Universal */
+body {
+	background-color: grey;
+	margin: auto;	
+}
+nav {
+	font-size: 20px;
+	font-family: garamond;
+}
+/*End Universal */
+
+/*Samsung Brand */
+.brand a {
+	float: left;
+}
+.brand a {
+	text-decoration: none;
+	color: #0c4da2;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: helvetica;
+}
+/*End Samsung Brand */
+
+/*Nav Alignment */
+.nav {
+	float: left;
+	padding-left: 10px;
+}
+/*End Nav Alignment */
+
+/*Navigation Links Decoration */
+.nav a {
+	color: #575757;
+	text-decoration: none;
+}
+.active { 
+	color: black !important; 
+}
+/*End Navigation Links Decoration */
+
+/*Footer */
+footer {
+	height: 50px;
+	text-align: center;
+}
+.arrows {
+	text-decoration: none;
+	color: black;
+	padding-left: 50px;
+}
+/*End Footer */
+
+	/* ------------------ */
+
+/*Total Page Height :: 950*/
+/*Main Nav :: 50*/
+/*Footer :: 50*/
+/*MainWrapper :: 800*/
+/*ContactWrapper :: 760 No idea why...*/
+
+/* Main :: CSS */
+#mainNav {
+	background-color: white;
+	height: 50px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#mainWrapper {
+	height: 810px;
+}
+/*Main Page Text*/
+.mobile {
+	text-align: center;
+	padding: 202.5px;
+	font-family: helvetica;
+	font-size: 40px;
+	color: #0c4da2;
+}
+/* End Main :: CSS */
+
+/* About :: CSS */
+#aboutNav {
+	background-color: white;
+	height: 50px;
+	padding-top: 20px;
+	padding-left: 20px;	
+}
+#aboutWrapper {
+	height: 785px;
+	padding-left: 20px;
+}
+/*About Section*/
+#aboutWrapper div img {
+	height: 500px;
+}
+#locationWrapper div img {
+	width: 600px;	
+}
+/* End About :: CSS */
+
+/*Software :: CSS*/
+#softwareWrapper {
+	height: 760px;
+	margin: auto;
+	padding-top: 50px;
+	padding-left: 75px;
+}
+#softwareNav {
+	background-color: white;
+	height: 50px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#downloadWrapper {
+	background-color: darkgrey;
+}
+.softDescription {
+	width: 200px;
+}
+/*App Divs Organizer*/
+#liftMaster {
+	padding-left: 50px;
+	width: 252px;
+	text-align: justify;
+	float: left;
+}
+#chamberlain {
+	padding-left: 50px;
+	width: 252px;
+	text-align: justify;
+	float: left;
+}
+#simplisafe {
+	padding-left: 50px;
+	width: 252px;
+	text-align: justify;
+	float: left;
+}
+/*App Images */
+.softwareImage {
+	width: 200px;
+}
+.downloadAndroidIcons {
+	width: 200px;
+}
+.downloadIOSIcons {
+	width: 200px;
+}
+/*End Software :: CSS*/
+
+/*Locations :: CSS*/
+#locationsNav {
+	background-color: white;
+	height: 50px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+#locationWrapper {
+	height: 800px;
+	padding-left: 10px; 
+	padding-top: 10px;
+}
+#locations {
+	float: left;
+}
+#map {
+	float: left;
+	padding-left: 75px;
+}
+
+/*End Locations :: CSS*/
+
+/*Contact :: CSS*/
+#contactWrapper {
+	height: 760px;
+	padding-top: 50px;
+	padding-left: 75px;
+}
+#contactNav {
+	background-color: white;
+	height: 50px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+/*Contact Form*/
+textarea {
+    resize: none;
+    overflow: scroll;
+}
+/*End Contact :: CSS*/
+
+
+
+
+
+
+
+
+

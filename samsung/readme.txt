@@ -1,0 +1,3 @@
+Hello Alan,
+
+This is not responsive. I ended up changing the entire design into a one page design. I tried using bootstrap, but due to me using similiar class and id tags it broke my page. The page is hand coded, the css I didn't even know where to begin as far as making it responsive. The page does have a total of 5 pages linked, however they are built inside of each other, thus having the one html document. 
