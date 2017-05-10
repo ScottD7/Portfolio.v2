@@ -1,0 +1,73 @@
+/** {
+	border: 1px dashed black;
+}*/
+button a {
+	text-decoration: none;
+}
+nav {
+	height: 40px;
+	background-color: #369;
+	/*padding-left: 50px;*/ /*So it can evenly center instead of being moved slightly then centering.*/
+	text-align: center;
+}
+nav a {
+	color: #fff;
+	font-family: tahoma;
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 40px; /*Same as your nav height*/
+	/*padding-left: 50px;*/
+	/*padding-right: 15px;*/ /*Causes a space between words*/
+	margin-right: 30px;
+	padding: 9px 15px;
+	font-weight: bold;
+}
+nav a:link {
+	color:	#fff;
+	background-color: teal;
+	text-decoration: underline;
+}
+nav a:visited {
+	color:	#bbb;
+	background-color: greenyellow;
+	text-decoration: underline;
+}
+nav a:hover {
+	color:	#bbb;
+	background-color: darkorange;
+	text-decoration: underline;
+}
+nav a:active {
+	color:	#bbb;
+	background-color: gold;
+	text-decoration: underline;
+}
+#container {
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	background-color: #369;	
+}
+section {
+	width: 700px;
+	float: left;
+	background-color: #ddd;
+}
+.little_boxes {
+	width: 175px; 
+	float: left;	
+	background-color: #aaa;
+	min-height: 200px;
+	margin: 15px;
+}
+.centered_group {
+	margin: auto;
+	overflow: hidden;
+	width: 615px;
+}
+
+
+
+
+
+

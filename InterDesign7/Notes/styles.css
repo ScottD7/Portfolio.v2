@@ -1,0 +1,9 @@
+body {
+	font-family: 'Amiko', sans-serif;
+}
+button a {
+	text-decoration: none;
+}
+.red_text {
+	color: #f00;
+}

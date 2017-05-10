@@ -1,0 +1,70 @@
+button a{
+	text-decoration: none;
+}
+body {
+	background-color: #369;
+	font-family: arial;
+}
+h1 {
+	font-size: 26px;
+	color: #fff;
+}
+#container {
+	margin: auto;
+	width: 1000px;
+	overflow: hidden;
+	background-color: #ddd;
+}
+header {
+	background-color: #bbb;
+	height: 125px;
+	overflow: hidden;
+}
+nav {
+	background-color: orange;
+	height: 45px;
+}
+section {
+	width: 700px;
+	float: left;
+}
+aside {
+	width: 300px;
+	float: right;
+}
+footer {
+		width: 1000px;
+		margin: auto;
+		background-color: #999;
+	}
+
+
+/*If media is screen based and if the max width is 500px then...*/
+/*If you keep the css the same then remove it.*/
+@media only screen and (max-width: 500px) {
+	h1 {
+		font-size: 22px;
+		text-align: center;
+	}
+	#container {
+		width: 95%;
+	}
+	header {
+		height: auto; /*The height will automatically adjust.*/
+	}
+	nav {
+		height: auto; /*The height will automatically adjust.*/
+	}
+	section {
+		width: 100%; /*100% causes the aside to go below the section, because of no other option.*/
+	}
+	aside {
+		width: 100%; /*100% causes the aside to go below the section, because of no other option.*/
+	}
+	/*aside { Display none removes unwanted content. Still loads the content.
+		display: none;
+	}*/
+	footer {
+		width: 95%;
+	}
+}

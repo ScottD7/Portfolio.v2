@@ -1,0 +1,10 @@
+
+nav {
+	height: 30px;
+	background-color: grey;
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid black;
+	text-align: center;
+	padding-bottom: 20px;
+}

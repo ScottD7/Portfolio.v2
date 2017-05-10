@@ -1,0 +1,57 @@
+button a {
+	text-decoration: none;
+}
+body {
+	color: #000;
+	font-family: arial;
+}
+
+#wrapper {
+	margin: auto;
+	width: 1000px;
+	overflow: hidden;
+	background-color: grey;
+}
+header {
+	height: 150px;
+}
+nav {
+	height: 50px;
+	background-color: #bbA;
+	
+}
+section {
+	width: 850px;
+	float: left;
+	min-height: 669px;
+	background-color: #eee;
+}
+
+aside {
+	width: 150px;
+	float: right;
+	min-height: 669px;
+	background-color: #bbb;
+	text-align: center;
+}
+
+.first {
+ 	text-align: center;
+ 	color: red;
+}
+.second {
+	text-align: justify;
+	color: green;
+}
+.third {
+	text-align: left;
+	color: black;
+	font-family: arial;
+}
+h1 {
+	font-family: arial;
+	color: black;
+}
+img {
+	width: 500px;
+}

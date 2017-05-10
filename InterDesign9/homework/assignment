@@ -1,0 +1,7 @@
+Create a web page with the following:
+- A centered container that has a width of 900 pixels
+- A header with a 25px pad
+- A section with an initial width of 675, a 22px pad, and a 2 px solid blue border
+- An aside tag with an initial width that takes up the remainder of the container width, plus a 10px pad.
+
+Save this file and we will upload it (next week) to your web server in its own folder (example: yoursite.com/visc210/week9/index.html). To turn this in, click the heading above and simply paste in your URL to this site at the beginning of class next week.

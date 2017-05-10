@@ -1,0 +1,9 @@
+
+- A background color on the body tag that is a gradient
+- A centered "container" div with a width of 1000px and a background image
+- A header tag that spans the width of the container width with a background color
+- A nav tag that spans the width of the container with a background color
+- A section tag with a width of 688px and a background image
+- An aside tag with a width of 312px and a background image
+- Place at least a word in each tag and adjust the font color so it is readable on top of your desired background color/image
+- Due next week at the beginning of class

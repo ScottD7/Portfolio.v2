@@ -1,0 +1,104 @@
+/** {
+	border: 1px dotted black;
+}*/
+#container {
+	background-color: white;
+	overflow: hidden;
+	margin: auto;
+	width: 500px;
+}
+header {
+	background-color: #0d0d0d;
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+header h1 {
+	height: auto;
+	margin: 0px;
+}
+body {
+	background-color: skyblue;
+}
+nav {
+	background-color: darkcyan;
+}
+nav a {
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	margin: auto;
+	border: 1px solid black;
+}
+nav a:hover {
+	background-color: firebrick;
+}
+footer {
+
+	text-align: center;
+	width: 100%;
+}
+#source {
+	float: left;
+	width: 50%;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: dimgrey;
+}
+#github {
+	float: right;
+	width: 50%;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: dimgrey;
+}
+#source:hover {
+	background-color: slategrey;
+}
+#github:hover {
+	background-color: slategrey;
+}
+.downloads {
+	text-decoration: none;
+}
+.downloads:visited {
+	color: black;
+}
+/*PHOTOSHOP*/
+.Group_1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 3000px;
+  height: 3000px;
+  z-index: 5;
+}
+.Follow_Me {
+  font-size: 55px;
+  font-family: "American Typewriter";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 1217px;
+  top: 1125px;
+  z-index: 4;
+}
+.Rounded_Rectangle_1 {
+  border-radius: 20px;
+  background-color: rgb(66, 212, 179);
+  box-shadow: 0px 9px 7.68px 0.32px rgba(42, 147, 123, 0.88);
+  position: absolute;
+  left: 1174px;
+  top: 1093px;
+  width: 350px;
+  height: 125px;
+  z-index: 3;
+}
+
+
+
+
